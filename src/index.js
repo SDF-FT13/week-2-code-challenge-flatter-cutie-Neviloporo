@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const votesForm = document.getElementById("votes-form");
   const votesInput = document.getElementById("votes");
   const resetButton = document.getElementById("reset-btn");
-  const baseURL = "http://localhost:3000/characters";
+  const baseURL = "https://flattened-cutiee.vercel.app/characters";
   let currentCharacter = null;
 
 
